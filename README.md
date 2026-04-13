@@ -37,7 +37,7 @@
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/air-writing-pro.git
+git clone https://github.com/abdulhadinp/air-writing-pro.git
 cd air-writing-pro
 
 # 2. Create virtual environment
@@ -78,3 +78,19 @@ python air_writing_pro.py
 ---
 
 ## 📁 Project Structure
+air-writing-pro/
+├── air_writing_pro.py   # Single-file version (run this)
+├── multifile/
+│   ├── main.py
+│   ├── hand_tracker.py
+│   ├── gesture_controller.py
+│   ├── drawing_canvas.py
+│   └── ui_manager.py
+├── requirements.txt
+└── README.md
+
+---
+
+## 📄 License
+
+MIT — free to use, modify, and distribute.
